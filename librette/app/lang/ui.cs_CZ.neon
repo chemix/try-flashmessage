@@ -1,0 +1,6 @@
+title: "ahoj"
+wow: "tohle je fleš zpráva"
+num: "tohle jedna |tohle je fleš zpráva %count%"
+name: "kuk %name%"
+numname: "tohle jedna %name% |tohle je fleš zpráva %count% od %name%"
+error: "chyba"

@@ -1,0 +1,6 @@
+title: "hello"
+wow: "this is flash message"
+num: "this is flash message one|this is flash message %count%"
+name: "wink %name%"
+numname: "this is flash message one %name%|this is flash message %count% from %name%"
+error: error
