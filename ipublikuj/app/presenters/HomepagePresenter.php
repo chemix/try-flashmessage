@@ -5,7 +5,6 @@ namespace App\Presenters;
 use Nette;
 use IPub\FlashMessages;
 
-
 class HomepagePresenter extends Nette\Application\UI\Presenter
 {
 	use FlashMessages\TFlashMessages;
@@ -15,21 +14,6 @@ class HomepagePresenter extends Nette\Application\UI\Presenter
 
 	/** @var \Kdyby\Translation\Translator @inject */
 	public $translator;
-
-
-	/**
-	 * Component for displaying messages
-	 *
-	 * @return FlashMessages\Control
-	 */
-	protected function createComponentFlashMessages()
-	{
-		// Init action confirm
-		$control = $this->flashMessagesFactory->create();
-
-		return $control;
-	}
-
 
 	public function renderDefault()
 	{
